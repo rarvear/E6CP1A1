@@ -24,3 +24,23 @@ Generar el código para imprimir la siguiente tabla:
   <tbody>
  </table>
 =end
+
+
+tablebegin='<table>
+  <tbody>'
+
+      
+
+tableend='  </tbody>
+</table>'
+  
+puts  tablebegin
+3.times do |a|
+    puts '        <tr>'
+  4.times do |i|
+    i+=1
+    puts "        <td> #{i+4*a} </td>"
+  end
+  puts '        </tr>'
+end
+puts  tableend

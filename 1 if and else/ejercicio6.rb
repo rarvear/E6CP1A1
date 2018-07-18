@@ -4,10 +4,10 @@
 a = 'verdadero'
 b = 'falso'
 
-if a == 'verdadero'
+if a == 'verdadero' || b== 'falso'
     puts ':)'
 else
-  if b == 'verdadero'
+  if b == 'verdadero' || a == 'falso'
     puts ':|'
   else
     puts ':('

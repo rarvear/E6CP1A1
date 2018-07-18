@@ -11,3 +11,17 @@
 </table>
 
 =end
+
+tablebegin="<table>
+	<tbody>
+			<tr>"
+
+tableend="			</tr>
+	</tbody>
+</table>"
+	
+puts  tablebegin
+for i in 1..3 do
+	puts "				<td> #{i} </td>"
+end
+puts  tableend
